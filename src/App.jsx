@@ -2,20 +2,21 @@ import './App.css';
 
 import React from 'react';
 
-import Favorites from './components/Favorites';
 import Meals from './components/Meals';
+/*
+import Favorites from './components/Favorites';
 import Modal from './components/Modal';
+*/
 import Search from './components/Search';
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Meals Application</h1>
+    <main>
       <Search />
-      <Favorites />
+      {/* <Favorites />  */}
       <Meals />
-      <Modal />
-    </div>
+      {/* <Modal /> */}
+    </main>
   );
 }
 
