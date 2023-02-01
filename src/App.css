@@ -229,7 +229,7 @@ ul {
 }
 
 .favorites-img {
-  width: 60px;
+  width: 69px;
   border-radius: 50%;
   border: 5px solid var(--white);
   cursor: pointer;
@@ -405,6 +405,15 @@ ul {
 }
 
 .close-btn{
+  width: 63px;
+  height: 27px;
+  font-weight: bold;
   background: var(--red-dark);
   color: var(--white);
+  cursor: pointer;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
 }
